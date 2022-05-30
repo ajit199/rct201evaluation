@@ -1,0 +1,29 @@
+
+.inputContainer{
+    margin: 20px;
+    width: 170px;
+    position: relative;
+}
+
+.inputContainer > img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.inputContainer > input{
+    padding-top: 5px;
+}
+
+.pageContainer{
+    display: flex;
+}
+.pageContainer > div{
+  width: 20px;
+  text-align: center;
+  outline-color: teal;
+  border: 0.5px solid pink;
+  margin-right: 5px;
+  cursor: pointer;
+
+}
